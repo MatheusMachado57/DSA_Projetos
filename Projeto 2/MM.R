@@ -126,4 +126,40 @@ for(i in 1:ncol(treino)){
 
 treino <- as.data.frame(treino)
 
-summarise(treino)
+summary(treino)
+
+write.csv(treino, "Treino.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
